@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.error-message {
+    color: #FF0000;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#quiz-container {
+    margin-top: 20px;
+}
+
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#options {
+    margin-top: 10px;
+}
+
+#options button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#options button:hover {
+    background-color: #eee;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/imagem/imagem.jfif'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+}
+
+.happy-container {
+    background-image: url('imagem/feliz.jfif'); /* Substitua pelo caminho da sua imagem feliz */
+    background-size: c0ver; /* Faz a imagem cobrir toda a caixa */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    padding: 20px; /* Adiciona um pouco de espaço interno */
+    border-radius: 10px; /* Arredonda os cantos da caixa */
+    color: #000000; /* Altera a cor do texto para branco */
+    width: 500px;
+    height: 500px;
+}
